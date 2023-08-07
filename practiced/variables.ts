@@ -1,5 +1,5 @@
 // 數字變數
-let a:number = 6
+let g:number = 6
 // 字串變數
 let b:string = "shaohua"
 // 句子與字串組合變數
