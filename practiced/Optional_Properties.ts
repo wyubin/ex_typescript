@@ -6,8 +6,8 @@ interface number_test{
 //類別
 let employee= {
     empId : 1 ,
-    empName : "shaohua"
-    showInfo : function(){}
+    empName : "shaohua" ,
+    showInfo : function(){} 
 }
 
 employee.showInfo = ()=>{
@@ -26,7 +26,7 @@ class Employee {
         this.c = third;
 }
 
-    showInfo() {
-        return this. a + "-" + this.b + "-" + this.c ;
+    showInfo() {
+        console.log(this. a + "-" + this.b + "-" + this.c) ;
     };
-}
+}
